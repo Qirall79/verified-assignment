@@ -127,7 +127,7 @@ const appendNode = async (order) => {
   }
 };
 
-// print the whole tree (it's going to be upside down, root at the bottom)
+// print the whole tree for testing purposes (it's going to be upside down, root at the bottom)
 const printTree = async (prevCID = latestNodeCid, result = []) => {
   try {
     const order = await extractObject(prevCID);
